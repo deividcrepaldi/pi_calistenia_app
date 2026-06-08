@@ -11,7 +11,7 @@ Projeto Integrador — Ciência da Computação — UNESC.
 ## Repositórios
 
 - **Aplicação:** <COLOQUE O LINK AQUI>
-- **Treinamento dos modelos:** <COLOQUE O LINK DO `pi_calistenia` AQUI>
+- **Treinamento dos modelos: https://github.com/deividcrepaldi/pi_calistenia
 
 ## Exercícios suportados
 
@@ -61,15 +61,7 @@ A aplicação abre em duas telas:
 
 ## Modelos
 
-Os arquivos `.h5` devem estar em `modelos/`:
-
-| Arquivo | Função | Acurácia (treino) |
-|---|---|---|
-| `detector.h5` | exercício vs `outro` (filtro global) | ~96,8% |
-| `push-up.h5` | correto vs incorreto (push-up) | ~91,5% |
-| `plank.h5` | correto vs incorreto (plank) | ~100,0% |
-| `sideplank.h5` | correto vs incorreto (side plank) | ~83,1% |
-| `hollowbody.h5` | correto vs incorreto (hollow body) | — |
+Os arquivos `.h5` devem estar em `modelos/`
 
 E o asset do MediaPipe em `assets/pose_landmarker_full.task` (baixar do
 [Google MediaPipe](https://developers.google.com/mediapipe/solutions/vision/pose_landmarker)).
