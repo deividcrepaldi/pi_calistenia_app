@@ -1,0 +1,42 @@
+# Claude Code config local
+.claude/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Modelos e assets pesados — gerados separadamente / baixados sob demanda
+modelos/*.h5
+assets/*.task
+
+# Vídeos de teste (não versionar mídia)
+testes/videos/**/*.mp4
+testes/videos/**/*.mov
+testes/videos/**/*.avi
+testes/videos/**/*.mkv
+testes/videos/**/*.webm
+testes/videos/**/*.m4v
+
+# Relatórios gerados pelo avaliar.py
+testes/relatorios/*.json
+testes/relatorios/*.md
+
+# Mantém a estrutura das pastas vazias
+!**/.gitkeep

@@ -1,0 +1,5 @@
+mediapipe==0.10.33
+tensorflow
+opencv-python
+numpy
+Pillow
